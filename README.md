@@ -1,6 +1,7 @@
 # HarghitaCounty-SwiftUI
 
-iOs version for this [repository](https://github.com/SoraJder/HarghitaCounty)
+iOs version for this [repository](https://github.com/SoraJder/HarghitaCounty).
+
 Also, this is the first homework of iOs course at University Transilvania of Brasov.
 
 HarghitaCounty is an iOs application consisting of 4 screens that informs the user about tourist attractions in Harghita county in Romanian language:
