@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F05FC7D42BCBB901005C4FC9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05FC7D32BCBB901005C4FC9 /* Constants.swift */; };
+		F05FC7D62BCC54E4005C4FC9 /* Objectives.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05FC7D52BCC54E3005C4FC9 /* Objectives.swift */; };
+		F05FC7DA2BCC5CFA005C4FC9 /* ObjectiveRowList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05FC7D92BCC5CFA005C4FC9 /* ObjectiveRowList.swift */; };
+		F05FC7DD2BCC6765005C4FC9 /* ObjectiveList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05FC7DC2BCC6765005C4FC9 /* ObjectiveList.swift */; };
+		F05FC7E12BCC6C6E005C4FC9 /* ObjectiveDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05FC7E02BCC6C6E005C4FC9 /* ObjectiveDetail.swift */; };
+		F0734CFD2BCB0771001C4C35 /* HarghitaCountyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0734CFC2BCB0771001C4C35 /* HarghitaCountyApp.swift */; };
+		F0734D012BCB0772001C4C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0734D002BCB0772001C4C35 /* Assets.xcassets */; };
+		F0734D042BCB0772001C4C35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0734D032BCB0772001C4C35 /* Preview Assets.xcassets */; };
+		F0734D0E2BCB0772001C4C35 /* HarghitaCountyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0734D0D2BCB0772001C4C35 /* HarghitaCountyTests.swift */; };
+		F0734D182BCB0772001C4C35 /* HarghitaCountyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0734D172BCB0772001C4C35 /* HarghitaCountyUITests.swift */; };
+		F0734D1A2BCB0772001C4C35 /* HarghitaCountyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0734D192BCB0772001C4C35 /* HarghitaCountyUITestsLaunchTests.swift */; };
+		F0DA5FEE2BCDA44400752BD3 /* ObjectiveMoreDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DA5FED2BCDA44400752BD3 /* ObjectiveMoreDetails.swift */; };
+		F0DA5FF42BCDA98500752BD3 /* ObjectiveUIWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DA5FF32BCDA98500752BD3 /* ObjectiveUIWeb.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0734D0A2BCB0772001C4C35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0734CF12BCB0771001C4C35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0734CF82BCB0771001C4C35;
+			remoteInfo = HarghitaCounty;
+		};
+		F0734D142BCB0772001C4C35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0734CF12BCB0771001C4C35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0734CF82BCB0771001C4C35;
+			remoteInfo = HarghitaCounty;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F05FC7D32BCBB901005C4FC9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F05FC7D52BCC54E3005C4FC9 /* Objectives.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objectives.swift; sourceTree = "<group>"; };
+		F05FC7D92BCC5CFA005C4FC9 /* ObjectiveRowList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveRowList.swift; sourceTree = "<group>"; };
+		F05FC7DC2BCC6765005C4FC9 /* ObjectiveList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveList.swift; sourceTree = "<group>"; };
+		F05FC7E02BCC6C6E005C4FC9 /* ObjectiveDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveDetail.swift; sourceTree = "<group>"; };
+		F0734CF92BCB0771001C4C35 /* HarghitaCounty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarghitaCounty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0734CFC2BCB0771001C4C35 /* HarghitaCountyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarghitaCountyApp.swift; sourceTree = "<group>"; };
+		F0734D002BCB0772001C4C35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0734D032BCB0772001C4C35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0734D092BCB0772001C4C35 /* HarghitaCountyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarghitaCountyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0734D0D2BCB0772001C4C35 /* HarghitaCountyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarghitaCountyTests.swift; sourceTree = "<group>"; };
+		F0734D132BCB0772001C4C35 /* HarghitaCountyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarghitaCountyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0734D172BCB0772001C4C35 /* HarghitaCountyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarghitaCountyUITests.swift; sourceTree = "<group>"; };
+		F0734D192BCB0772001C4C35 /* HarghitaCountyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarghitaCountyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F0DA5FED2BCDA44400752BD3 /* ObjectiveMoreDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveMoreDetails.swift; sourceTree = "<group>"; };
+		F0DA5FF32BCDA98500752BD3 /* ObjectiveUIWeb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveUIWeb.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0734CF62BCB0771001C4C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0734D062BCB0772001C4C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0734D102BCB0772001C4C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F05FC7CE2BCBB846005C4FC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F05FC7D52BCC54E3005C4FC9 /* Objectives.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F05FC7D02BCBB852005C4FC9 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F05FC7D32BCBB901005C4FC9 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F05FC7D82BCC5CDD005C4FC9 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				F0DA5FF22BCDA96700752BD3 /* FourthScreen */,
+				F0DA5FEC2BCDA43200752BD3 /* ThirdScreen */,
+				F05FC7DE2BCC6B10005C4FC9 /* SecondScreen */,
+				F05FC7DB2BCC66E9005C4FC9 /* FirstScreen */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		F05FC7DB2BCC66E9005C4FC9 /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F05FC7D92BCC5CFA005C4FC9 /* ObjectiveRowList.swift */,
+				F05FC7DC2BCC6765005C4FC9 /* ObjectiveList.swift */,
+			);
+			path = FirstScreen;
+			sourceTree = "<group>";
+		};
+		F05FC7DE2BCC6B10005C4FC9 /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F05FC7E02BCC6C6E005C4FC9 /* ObjectiveDetail.swift */,
+			);
+			path = SecondScreen;
+			sourceTree = "<group>";
+		};
+		F0734CF02BCB0771001C4C35 = {
+			isa = PBXGroup;
+			children = (
+				F0734CFB2BCB0771001C4C35 /* HarghitaCounty */,
+				F0734D0C2BCB0772001C4C35 /* HarghitaCountyTests */,
+				F0734D162BCB0772001C4C35 /* HarghitaCountyUITests */,
+				F0734CFA2BCB0771001C4C35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0734CFA2BCB0771001C4C35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0734CF92BCB0771001C4C35 /* HarghitaCounty.app */,
+				F0734D092BCB0772001C4C35 /* HarghitaCountyTests.xctest */,
+				F0734D132BCB0772001C4C35 /* HarghitaCountyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0734CFB2BCB0771001C4C35 /* HarghitaCounty */ = {
+			isa = PBXGroup;
+			children = (
+				F05FC7D82BCC5CDD005C4FC9 /* Presentation */,
+				F05FC7D02BCBB852005C4FC9 /* Constants */,
+				F05FC7CE2BCBB846005C4FC9 /* Model */,
+				F0734CFC2BCB0771001C4C35 /* HarghitaCountyApp.swift */,
+				F0734D002BCB0772001C4C35 /* Assets.xcassets */,
+				F0734D022BCB0772001C4C35 /* Preview Content */,
+			);
+			path = HarghitaCounty;
+			sourceTree = "<group>";
+		};
+		F0734D022BCB0772001C4C35 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F0734D032BCB0772001C4C35 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0734D0C2BCB0772001C4C35 /* HarghitaCountyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0734D0D2BCB0772001C4C35 /* HarghitaCountyTests.swift */,
+			);
+			path = HarghitaCountyTests;
+			sourceTree = "<group>";
+		};
+		F0734D162BCB0772001C4C35 /* HarghitaCountyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0734D172BCB0772001C4C35 /* HarghitaCountyUITests.swift */,
+				F0734D192BCB0772001C4C35 /* HarghitaCountyUITestsLaunchTests.swift */,
+			);
+			path = HarghitaCountyUITests;
+			sourceTree = "<group>";
+		};
+		F0DA5FEC2BCDA43200752BD3 /* ThirdScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F0DA5FED2BCDA44400752BD3 /* ObjectiveMoreDetails.swift */,
+			);
+			path = ThirdScreen;
+			sourceTree = "<group>";
+		};
+		F0DA5FF22BCDA96700752BD3 /* FourthScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F0DA5FF32BCDA98500752BD3 /* ObjectiveUIWeb.swift */,
+			);
+			path = FourthScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0734CF82BCB0771001C4C35 /* HarghitaCounty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0734D1D2BCB0772001C4C35 /* Build configuration list for PBXNativeTarget "HarghitaCounty" */;
+			buildPhases = (
+				F0734CF52BCB0771001C4C35 /* Sources */,
+				F0734CF62BCB0771001C4C35 /* Frameworks */,
+				F0734CF72BCB0771001C4C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HarghitaCounty;
+			productName = HarghitaCounty;
+			productReference = F0734CF92BCB0771001C4C35 /* HarghitaCounty.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0734D082BCB0772001C4C35 /* HarghitaCountyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0734D202BCB0772001C4C35 /* Build configuration list for PBXNativeTarget "HarghitaCountyTests" */;
+			buildPhases = (
+				F0734D052BCB0772001C4C35 /* Sources */,
+				F0734D062BCB0772001C4C35 /* Frameworks */,
+				F0734D072BCB0772001C4C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0734D0B2BCB0772001C4C35 /* PBXTargetDependency */,
+			);
+			name = HarghitaCountyTests;
+			productName = HarghitaCountyTests;
+			productReference = F0734D092BCB0772001C4C35 /* HarghitaCountyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0734D122BCB0772001C4C35 /* HarghitaCountyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0734D232BCB0772001C4C35 /* Build configuration list for PBXNativeTarget "HarghitaCountyUITests" */;
+			buildPhases = (
+				F0734D0F2BCB0772001C4C35 /* Sources */,
+				F0734D102BCB0772001C4C35 /* Frameworks */,
+				F0734D112BCB0772001C4C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0734D152BCB0772001C4C35 /* PBXTargetDependency */,
+			);
+			name = HarghitaCountyUITests;
+			productName = HarghitaCountyUITests;
+			productReference = F0734D132BCB0772001C4C35 /* HarghitaCountyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0734CF12BCB0771001C4C35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					F0734CF82BCB0771001C4C35 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					F0734D082BCB0772001C4C35 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F0734CF82BCB0771001C4C35;
+					};
+					F0734D122BCB0772001C4C35 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = F0734CF82BCB0771001C4C35;
+					};
+				};
+			};
+			buildConfigurationList = F0734CF42BCB0771001C4C35 /* Build configuration list for PBXProject "HarghitaCounty" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0734CF02BCB0771001C4C35;
+			productRefGroup = F0734CFA2BCB0771001C4C35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0734CF82BCB0771001C4C35 /* HarghitaCounty */,
+				F0734D082BCB0772001C4C35 /* HarghitaCountyTests */,
+				F0734D122BCB0772001C4C35 /* HarghitaCountyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0734CF72BCB0771001C4C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0734D042BCB0772001C4C35 /* Preview Assets.xcassets in Resources */,
+				F0734D012BCB0772001C4C35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0734D072BCB0772001C4C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0734D112BCB0772001C4C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0734CF52BCB0771001C4C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0DA5FEE2BCDA44400752BD3 /* ObjectiveMoreDetails.swift in Sources */,
+				F05FC7D62BCC54E4005C4FC9 /* Objectives.swift in Sources */,
+				F05FC7D42BCBB901005C4FC9 /* Constants.swift in Sources */,
+				F05FC7E12BCC6C6E005C4FC9 /* ObjectiveDetail.swift in Sources */,
+				F05FC7DD2BCC6765005C4FC9 /* ObjectiveList.swift in Sources */,
+				F05FC7DA2BCC5CFA005C4FC9 /* ObjectiveRowList.swift in Sources */,
+				F0DA5FF42BCDA98500752BD3 /* ObjectiveUIWeb.swift in Sources */,
+				F0734CFD2BCB0771001C4C35 /* HarghitaCountyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0734D052BCB0772001C4C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0734D0E2BCB0772001C4C35 /* HarghitaCountyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0734D0F2BCB0772001C4C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0734D1A2BCB0772001C4C35 /* HarghitaCountyUITestsLaunchTests.swift in Sources */,
+				F0734D182BCB0772001C4C35 /* HarghitaCountyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0734D0B2BCB0772001C4C35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0734CF82BCB0771001C4C35 /* HarghitaCounty */;
+			targetProxy = F0734D0A2BCB0772001C4C35 /* PBXContainerItemProxy */;
+		};
+		F0734D152BCB0772001C4C35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0734CF82BCB0771001C4C35 /* HarghitaCounty */;
+			targetProxy = F0734D142BCB0772001C4C35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F0734D1B2BCB0772001C4C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0734D1C2BCB0772001C4C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0734D1E2BCB0772001C4C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HarghitaCounty/Preview Content\"";
+				DEVELOPMENT_TEAM = G43LGM6BD5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HarghitaCounty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0734D1F2BCB0772001C4C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HarghitaCounty/Preview Content\"";
+				DEVELOPMENT_TEAM = G43LGM6BD5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HarghitaCounty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0734D212BCB0772001C4C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G43LGM6BD5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HarghitaCountyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarghitaCounty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HarghitaCounty";
+			};
+			name = Debug;
+		};
+		F0734D222BCB0772001C4C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G43LGM6BD5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HarghitaCountyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HarghitaCounty.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HarghitaCounty";
+			};
+			name = Release;
+		};
+		F0734D242BCB0772001C4C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G43LGM6BD5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HarghitaCountyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HarghitaCounty;
+			};
+			name = Debug;
+		};
+		F0734D252BCB0772001C4C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G43LGM6BD5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.HarghitaCountyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HarghitaCounty;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0734CF42BCB0771001C4C35 /* Build configuration list for PBXProject "HarghitaCounty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0734D1B2BCB0772001C4C35 /* Debug */,
+				F0734D1C2BCB0772001C4C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0734D1D2BCB0772001C4C35 /* Build configuration list for PBXNativeTarget "HarghitaCounty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0734D1E2BCB0772001C4C35 /* Debug */,
+				F0734D1F2BCB0772001C4C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0734D202BCB0772001C4C35 /* Build configuration list for PBXNativeTarget "HarghitaCountyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0734D212BCB0772001C4C35 /* Debug */,
+				F0734D222BCB0772001C4C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0734D232BCB0772001C4C35 /* Build configuration list for PBXNativeTarget "HarghitaCountyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0734D242BCB0772001C4C35 /* Debug */,
+				F0734D252BCB0772001C4C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0734CF12BCB0771001C4C35 /* Project object */;
+}
