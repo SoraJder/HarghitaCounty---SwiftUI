@@ -21,7 +21,7 @@ Technologies used: Swift, SwiftUI
    </tr> 
    <tr>
       <td><img src="https://github.com/SoraJder/HarghitaCounty---SwiftUI/assets/68143362/fc32087e-6157-4111-9dbd-932a3da82f0f" alt="3" width = 360px ></td>
-      <td><img src="https://github.com/SoraJder/HarghitaCounty---SwiftUI/assets/68143362/2e40fbf4-28da-49c6-bda1-17bc25c6c7bd" align="right" alt="4" width = 360px>
+      <td><img src="https://github.com/SoraJder/HarghitaCounty---SwiftUI/assets/68143362/2e40fbf4-28da-49c6-bda1-17bc25c6c7bd" alt="4" width = 360px>
   </td>
   </tr>
 </table>
